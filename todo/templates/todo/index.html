@@ -1,0 +1,14 @@
+{% extends "todo/layout.html" %}
+
+{% block title%}
+Homepage
+{% endblock%}
+
+{% block body %}
+
+<h1>Hello this is homepage </h1>
+
+<a href="{% url 'pages:add' %}">click here</a>
+
+
+{% endblock %}
